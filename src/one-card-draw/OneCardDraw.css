@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Card {
+    font-family: 'Raleway', sans-serif;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center; */
+    background-color: black;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 150vw;
+    height: 150vh;
+    text-align:center;
+    /* margin-top: 10px; */
+}
+
+.Card-Info h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Card-Info img {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    padding-bottom: 30px;
+
+}
+
+.Card-Info-Summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.Card-Info-Summary h5 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.Card-Info-Summary p {
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    width: 900px;
+}
